@@ -9,3 +9,17 @@ html, body {
     width: 100%;
     background-color: black;
 }
+:root {
+    --x : 400px;
+    --y : 400px;
+
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background: radial-gradient (150px at var(--x) var(--y) , red, blue);
+
+}
+
+
