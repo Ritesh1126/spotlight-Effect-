@@ -8,6 +8,8 @@ html, body {
     height: 100%;
     width: 100%;
     background-color: black;
+    background-image: url("https://images.pexels.com/photos/636243/pexels-photo-636243.jpeg");
+    background-size: cover;
 }
 :root {
     --x : 400px;
@@ -16,9 +18,9 @@ html, body {
 }
 
 .box {
-    height: 400px;
-    width: 400px;
-    background: radial-gradient (150px at var(--x) var(--y) , red, blue);
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(150px at var(--x) var(--y), rgba(255, 255, 255, 0), black);
 
 }
 
